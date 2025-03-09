@@ -9,28 +9,60 @@
     <style>
         /* Custom Styles */
         body {
-            background-color: #e0e0e0;
+            background-color: #f8f9fa;
             color: #333;
         }
 
         header {
             background-color: #00509e;
             color: white;
-            padding: 1.5em 0;
+            padding: 1em 0;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         nav a {
             color: white;
             font-weight: bold;
+            transition: color 0.3s;
         }
 
         nav a:hover {
-            text-decoration: underline;
+            color: #ffdd57;
         }
 
         h2 {
             color: #00509e;
+        }
+
+        .blog-post {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1em;
+            margin-bottom: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .blog-post:hover {
+            transform: translateY(-5px);
+        }
+
+        .blog-date {
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .blog-description {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            max-width: 100%;
+            transition: max-height 0.2s ease-out;
+        }
+
+        .blog-post:hover .blog-description {
+            white-space: normal;
+            max-height: 100px;
         }
 
         footer {
@@ -56,14 +88,28 @@
 
     <!-- Main Content -->
     <div class="container mt-4">
-        <section class="mb-4">
-            <h2>How I Built This Webpage</h2>
-            <p>Details about how the webpage was built...</p>
+        <section class="blog-post">
+            <h2>How I Built This Webpage!</h2>
+            <p class="blog-date">Published on: January 1, 2025</p>
+            <p class="blog-description">Details about how the webpage was built... This section will expand on hover to
+                show the full content.</p>
+            <a href="./blog/how-i-built-this-webpage.html" class="btn btn-primary">Read More</a>
         </section>
 
-        <section class="mb-4">
-            <h2>Top 5 CSS Tricks for Beginners</h2>
-            <p>Details about CSS tricks...</p>
+        <section class="blog-post">
+            <h2>Machine Learning Models Playground</h2>
+            <p class="blog-date">Published on: February 15, 2025</p>
+            <p class="blog-description">Details about CSS tricks... This section will expand on hover to show the full
+                content.</p>
+            <a href="./blog/machine-learning-models-playground.html" class="btn btn-primary">Read More</a>
+        </section>
+
+        <section class="blog-post">
+            <h2>NumPy based MPS package for classical simulation of quantum computation</h2>
+            <p class="blog-date">Published on: March 10, 2025</p>
+            <p class="blog-description">Details about CSS tricks... This section will expand on hover to show the full
+                content.</p>
+            <a href="./blog/numpy-mps-package.html" class="btn btn-primary">Read More</a>
         </section>
     </div>
 

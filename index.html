@@ -9,24 +9,25 @@
     <style>
         /* Custom Styles */
         body {
-            background-color: #e0e0e0;
+            background-color: #f8f9fa;
             color: #333;
         }
 
         header {
             background-color: #00509e;
             color: white;
-            padding: 1.5em 0;
+            padding: 1em 0;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         nav a {
             color: white;
             font-weight: bold;
+            transition: color 0.3s;
         }
 
         nav a:hover {
-            text-decoration: underline;
+            color: #ffdd57;
         }
 
         .sidebar img {
@@ -39,6 +40,19 @@
 
         h2 {
             color: #00509e;
+        }
+
+        .content-box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2em;
+            margin-bottom: 2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .content-box:hover {
+            transform: translateY(-5px);
         }
 
         footer {
@@ -72,22 +86,36 @@
                 <p>Student | Researcher | Developer</p>
                 <h3>Contact</h3>
                 <p>Email: <a href="mailto:aadikpat@gmail.com">aadikpat@gmail.com</a></p>
-                <p>LinkedIn: <a href="www.linkedin.com/in/aadi-patwardhan-08978b282">My profile</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/aadi-patwardhan-08978b282/">My profile</a></p>
             </aside>
 
             <!-- Main Content -->
             <main class="col-md-9">
                 <!-- About Me Section -->
-                <section id="about" class="mb-4">
+                <section id="about" class="content-box">
                     <h2>About Me</h2>
                     <p>
-                        Hi there! I'm a passionate web developer who loves creating visually stunning and user-friendly
-                        websites. I enjoy solving problems and turning ideas into reality.
+                        Hi there! I am an inquisitive 2nd year Computer Science Honour's student at TU Delft with
+                        passion for exploring emergent disruptive technologies.
+                    </p>
+                    <p>
+                        Currently I am focusing on data & AI track in my bachelor with Honours research on
+                        quantum computing. In my free time I am an avid fan of science fiction and ancient history
+                        podcasts.
+                    </p>
+                    <p>
+                        Coming from Indian heritage and born and brought up in the Netherlands, I speak fluent
+                        English, Marathi and Dutch, and am comfortable in Hindi and German B1 level.
+                    </p>
+                    <p>
+                        My vision: I want to actively contribute in the
+                        endeavour of making this planet a better place for all
+                        living beings using modern computing technologies.
                     </p>
                 </section>
 
                 <!-- Projects Section -->
-                <section id="projects" class="mb-4">
+                <section id="projects" class="content-box">
                     <h2>Projects</h2>
                     <ul>
                         <li><a href="#">Project 1: Dummy Project</a></li>
@@ -96,13 +124,13 @@
                 </section>
 
                 <!-- Blog Section -->
-                <section id="blog" class="mb-4">
+                <section id="blog" class="content-box">
                     <h2>Blog</h2>
                     <p>Visit my <a href="blog.html">blog page</a> for more articles.</p>
                 </section>
 
                 <!-- Insights Section -->
-                <section id="insights" class="mb-4">
+                <section id="insights" class="content-box">
                     <h2>Insights</h2>
                     <p>Visit my <a href="insights.html">insights page</a> for more updates.</p>
                 </section>
@@ -112,7 +140,7 @@
 
     <!-- Footer -->
     <footer class="text-center">
-        <p>© 2025 Your Name | Built with 💙 using HTML & CSS</p>
+        <p>© 2025 Your Name | Built using HTML & CSS</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

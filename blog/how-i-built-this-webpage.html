@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insights - Aadi Patwardhan</title>
+    <title>How I Built This Webpage! - Aadi Patwardhan</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* Custom Styles */
@@ -30,10 +30,6 @@
             color: #ffdd57;
         }
 
-        h2 {
-            color: #00509e;
-        }
-
         .content-box {
             background-color: white;
             border-radius: 10px;
@@ -45,6 +41,15 @@
 
         .content-box:hover {
             transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #00509e;
+        }
+
+        .blog-date {
+            font-size: 0.9em;
+            color: #777;
         }
 
         footer {
@@ -59,21 +64,23 @@
 <body>
     <!-- Header -->
     <header class="text-center">
-        <h1>Insights</h1>
+        <h1>How I Built This Webpage!</h1>
         <nav class="nav justify-content-center">
-            <a class="nav-link" href="index.html#about">About</a>
-            <a class="nav-link" href="index.html#projects">Projects</a>
-            <a class="nav-link" href="blog.html">Blog</a>
-            <a class="nav-link" href="insights.html">Insights</a>
+            <a class="nav-link" href="../index.html#about">About</a>
+            <a class="nav-link" href="../index.html#projects">Projects</a>
+            <a class="nav-link" href="../blog.html">Blog</a>
+            <a class="nav-link" href="../index.html#insights">Insights</a>
         </nav>
     </header>
 
     <!-- Main Content -->
     <div class="container mt-4">
-        <section class="content-box">
-            <h2>Coming Soon!</h2>
-            <p>Stay tuned for exciting updates and insights.</p>
-        </section>
+        <div class="content-box">
+            <h2>How I Built This Webpage!</h2>
+            <p class="blog-date">Published on: January 1, 2025</p>
+            <p>Details about how the webpage was built...</p>
+            <a href="../blog.html" class="btn btn-secondary">Return to Blog</a>
+        </div>
     </div>
 
     <!-- Footer -->
