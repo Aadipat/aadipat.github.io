@@ -5,82 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Webpage</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        /* Custom Styles */
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
+            background-color: #e0e0e0;
             color: #333;
         }
 
         header {
-            background-color: #0078d4;
+            background-color: #00509e;
             color: white;
-            text-align: center;
             padding: 1.5em 0;
-        }
-
-        main {
-            padding: 2em;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         nav a {
-            margin: 0 1em;
             color: white;
-            text-decoration: none;
+            font-weight: bold;
         }
 
         nav a:hover {
             text-decoration: underline;
         }
+
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #00509e;
+            margin-bottom: 1em;
+        }
+
+        h2 {
+            color: #00509e;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to My Webpage</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+    <!-- Header -->
+    <header class="text-center">
+        <h1>Welcome to My Personal Webpage</h1>
+        <nav class="nav justify-content-center">
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="blog.html">Blog</a>
+            <a class="nav-link" href="insights.html">Insights</a>
         </nav>
     </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm a developer passionate about creating innovative and user-friendly web experiences. This
-                webpage is a showcase of my skills and projects.</p>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="https://github.com/your-repo" target="_blank">Project 1: Awesome App</a></li>
-                <li><a href="https://github.com/your-repo" target="_blank">Project 2: Cool Tool</a></li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Feel free to reach out via email at <a href="mailto:your.email@example.com">your.email@example.com</a>.
-            </p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 Your Name | <a href="https://github.com/your-username" style="color: white;"
-                target="_blank">GitHub</a></p>
+
+    <!-- Layout Container -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Sidebar (Photo & Contact Details) -->
+            <aside class="col-md-3 text-center">
+                <img src="your-photo.jpg" alt="Your Photo">
+                <h2>Aadi Patwardhan</h2>
+                <p>Student | Researcher | Developer</p>
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:aadikpat@gmail.com">aadikpat@gmail.com</a></p>
+                <p>LinkedIn: <a href="www.linkedin.com/in/aadi-patwardhan-08978b282">My profile</a></p>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="col-md-9">
+                <!-- About Me Section -->
+                <section id="about" class="mb-4">
+                    <h2>About Me</h2>
+                    <p>
+                        Hi there! I'm a passionate web developer who loves creating visually stunning and user-friendly
+                        websites. I enjoy solving problems and turning ideas into reality.
+                    </p>
+                </section>
+
+                <!-- Projects Section -->
+                <section id="projects" class="mb-4">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li><a href="#">Project 1: Dummy Project</a></li>
+                        <li><a href="#">Project 2: Another Dummy Project</a></li>
+                    </ul>
+                </section>
+
+                <!-- Blog Section -->
+                <section id="blog" class="mb-4">
+                    <h2>Blog</h2>
+                    <p>Visit my <a href="blog.html">blog page</a> for more articles.</p>
+                </section>
+
+                <!-- Insights Section -->
+                <section id="insights" class="mb-4">
+                    <h2>Insights</h2>
+                    <p>Visit my <a href="insights.html">insights page</a> for more updates.</p>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>© 2025 Your Name | Built with 💙 using HTML & CSS</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
