@@ -1,1 +1,0 @@
-# aadipat.github.io
