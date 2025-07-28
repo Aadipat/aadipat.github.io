@@ -33,4 +33,18 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-My name is Aadi Patwardhan.
+My name is Aadi Patwardhan, a student researcher with a passion for exploring new problems with modern computing.
+
+Currently I am an Honours Computer Science and Engineering Bachelor Student at TU Delft. I am focusing on Data & AI in my bachelor whilst doing honours research on Quantum Computation Simulation. My educational journey has equipped me with competance using various computing technologies from programming languages (Java, Scala, Python, C++, ...), APIs / Frameworks (IBM Qiskit, Spark, ...) to LLMs (LangChain). Having done the IB, I have further honed my critical thinking, leadership and teamwork skills.
+
+Apart form academics, I have a plethora of other interests in various fields.
+
+Throughout my school years, I have played a vast variety of sports, I have a Fide Classical rating of around 1800 and have represented the Dutch national U18 Cricket team.
+
+In my free time I am an avid fan of science fiction and ancient history.
+
+On this website, I am documenting my insights, interests and results of many of my endeavours.
+
+Feel free to reach out if any of my works interest you too!
+
+[My LinkedIn](www.linkedin.com/in/aadikpat)
