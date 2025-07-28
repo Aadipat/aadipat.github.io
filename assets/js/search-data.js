@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Collection of my projects!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -440,12 +440,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-mlp-package-for-java",
-          title: 'MLP package for JAVA!',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/10_project/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -490,6 +485,31 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-rubik-39-s-cube-simulation-api",
+          title: 'Rubik&amp;#39;s cube simulation API',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/EE_project_code/";
+            },},{id: "projects-hackdelft-2024-competition",
+          title: 'HackDelft 2024 Competition',
+          description: "Nominated solution for magazine delivery service problem",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/HackDelft2024_code/";
+            },},{id: "projects-mlp-package-for-java",
+          title: 'MLP package for JAVA',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/JavaNN_project/";
+            },},{id: "projects-ml-models-playground",
+          title: 'ML models playground',
+          description: "Foundational ML concepts enabled through mathematical modelling",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ML_Playground/";
+            },},{id: "projects-lightweight-quantum-mps-simulator",
+          title: 'Lightweight Quantum MPS simulator',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/QMPS_code/";
             },},{
         id: 'social-email',
         title: 'email',
