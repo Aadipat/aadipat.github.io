@@ -65,10 +65,7 @@
       "startDate": "2023-09-01",
       "endDate": "2026-07-01",
       "score": "8.6/10",
-      "courses": [
-        "Track: Data & AI",
-        "Minor: Quantum Science & Quantum Information"
-      ]
+      "courses": ["Track: Data & AI", "Minor: Quantum Science & Quantum Information"]
     },
     {
       "institution": "Amsterdam International Community School",
@@ -79,9 +76,7 @@
       "startDate": "2021-09-01",
       "endDate": "2023-06-01",
       "score": "41/45",
-      "courses": [
-        "HL: Mathematics AA (7), Physics (7), Chemistry (7)"
-      ]
+      "courses": ["HL: Mathematics AA (7), Physics (7), Chemistry (7)"]
     }
   ],
   "awards": [
