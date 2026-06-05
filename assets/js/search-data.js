@@ -429,16 +429,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-started-as-a-research-assistant-at-the-infini-data-lab-wis-tu-delft-working-on-ai-assisted-simulation-of-quantum-computation-systems",
+          title: 'Started as a Research Assistant at the Infini Data Lab (WIS), TU Delft...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-organised-tu-delft-s-first-ibm-quantum-qiskit-fall-fest-event-and-mentored-students-on-quantum-circuit-design",
+          title: 'Organised TU Delft’s first IBM Quantum – Qiskit Fall Fest event and mentored...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-runner-up-in-the-tu-delft-challenge-at-the-jane-street-junction-hackathon-2025",
+          title: 'Runner-Up in the TU Delft Challenge at the Jane Street × Junction Hackathon...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
