@@ -2,96 +2,91 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Aadi Patwardhan
+    - name: Location
+      value: Den Haag, Netherlands
     - name: Languages
-      value: English, German
+      value: English, Marathi, Dutch (fluent), Hindi, German (B1)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: BSc (Honours) Computer Science & Engineering
+      institution: Delft University of Technology (TU Delft), Delft, Netherlands
+      year: 2023 – 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "CGPA: 8.6/10"
+        - "Track: Data & AI — Minor: Quantum Science & Quantum Information"
+        - title: Honours Programme
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Research on efficient simulation of quantum computation systems at Infini Data Lab (WIS)
+    - title: IB Diploma
+      institution: Amsterdam International Community School, Amsterdam, Netherlands
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        - "Score: 41/45"
+        - "HL: Mathematics AA (7), Physics (7), Chemistry (7)"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant – Infini Data Lab (WIS)
+      institution: TU Delft
+      year: Sep 2024 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Conducting honours research on efficient simulation of quantum computation systems, focusing on scalability and optimisation through learning-based methods.
+        - Developing AI-assisted techniques for enabling fault-tolerant quantum computation.
+        - Implementing high-performance simulation pipelines in Python/Qiskit for large-scale quantum systems.
+        - Research at the intersection of machine learning, quantum information theory, and computational complexity.
+    - title: Deal Analytics Software Intern
+      institution: PricewaterhouseCoopers (PwC)
+      year: Mar 2025 – Jun 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Architected and deployed a full-stack deal analytics platform replacing manual PVA workflows, achieving 4× faster financial analysis.
+        - Built backend automation in Python Django and PostgreSQL; deployed with Docker on internal PwC Deals platforms.
+        - Developed interactive M&A insight views with React + TypeScript.
+        - Collaborated cross-functionally with finance and valuation teams in an agile environment.
+        - Prototyped AI-assisted automation tools to streamline deal analysis.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects & Leadership
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: IBM Quantum – Qiskit Fall Fest Mentor
+      year: 2024
+      description: Organised TU Delft's first IBM Quantum event; mentored students on quantum circuit design.
+    - title: Jane Street × Junction Hackathon
+      year: 2025
+      description: TU Delft Challenge Runner-Up.
+    - title: HackDelft
+      year: 2024
+      description: Top 3 nomination for CH Challenge.
+    - title: DARE Aerospace – CanSat Competition
+      year: 2020–2023
+      description: Software & hardware engineer; Top 10 nationwide for 3 consecutive years.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, Java, C++, JavaScript/TypeScript, Scala, SQL, Assembly
+    - title: ML/AI
       items:
-        - Description 1.
-        - Description 2.
+        - PyTorch, TensorFlow, Keras, LangChain
+    - title: Quantum
+      items:
+        - Qiskit
+    - title: Backend/Systems
+      items:
+        - Django, SpringBoot, Apache Spark, PostgreSQL, Docker
+    - title: Frontend
+      items:
+        - ReactJS
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Chess — FIDE Rating: 1773"
+    - "Cricket — Dutch National U16 & U18 Team; #1 U17 Bowler in Netherlands (2022)"
+    - "500+ LeetCode problems solved"
+    - "Ancient history and science fiction"
