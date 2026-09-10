@@ -9,7 +9,7 @@ related_publications: true
 github: https://github.com/Aadipat/VLDB_Demo_QEC_Game
 ---
 
-When we demoed [QEC lake](/publications/#patwardhan2026qeclake) at VLDB 2026, we needed a way to explain quantum error correction (QEC) to conference attendees in under a minute — without a whiteboard lecture on stabilizer codes. So I built **QEC Tiles: Stabilizer Rush**, a small browser game where you *are* the decoder.
+When we demoed [QEC lake](/publications/#patwardhan2026qeclake) at VLDB 2026, we needed a way to explain quantum error correction (QEC) to conference attendees in under a minute — without a whiteboard lecture on stabilizer codes. So I built **QEC Tiles: Stabilizer Rush**, a small browser game where you _are_ the decoder.
 
 ### The idea behind the game
 
@@ -30,7 +30,9 @@ function computeFiredAncillas(truthSet) {
   const fired = [];
   session.geo.ancillas.forEach((a, aIdx) => {
     let count = 0;
-    a.qubits.forEach(q => { if (truthSet.has(q)) count++; });
+    a.qubits.forEach((q) => {
+      if (truthSet.has(q)) count++;
+    });
     if (count % 2 === 1) fired.push(aIdx);
   });
   return fired;
@@ -41,4 +43,4 @@ The game only ever shows the player `fired`, never `truthSet` — the same infor
 
 ### Why it worked as a demo
 
-Letting people *play* a few rounds of decoding, rather than describing syndromes and stabilizers abstractly, made the core difficulty of QEC decoding click almost immediately: you're inferring hidden errors from indirect, noisy evidence, under time pressure — which is precisely why this is a machine learning problem in practice, and precisely the kind of training data QEC lake exists to provide {% cite patwardhan2026qeclake %}.
+Letting people _play_ a few rounds of decoding, rather than describing syndromes and stabilizers abstractly, made the core difficulty of QEC decoding click almost immediately: you're inferring hidden errors from indirect, noisy evidence, under time pressure — which is precisely why this is a machine learning problem in practice, and precisely the kind of training data QEC lake exists to provide {% cite patwardhan2026qeclake %}.

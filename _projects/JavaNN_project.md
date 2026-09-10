@@ -61,7 +61,7 @@ It has cost [[ 0.6032754191047551]]
 [[ 0.7969148407206734]]
 ```
 
-Worth being honest about: that's not a converged NAND gate — the outputs should land near `[1, 1, 1, 0]` for inputs `(1,1), (1,0), (0,1), (0,0)`, and a cost of 0.60 after 1000 restarts says the default hyperparameters in `TestNN.java` just aren't enough to get there. The mechanics (forward pass, backprop, gradient descent, random-restart selection) all genuinely work; whether the *specific* configuration in the repo converges on NAND is a separate question the code itself doesn't quite answer.
+Worth being honest about: that's not a converged NAND gate — the outputs should land near `[1, 1, 1, 0]` for inputs `(1,1), (1,0), (0,1), (0,0)`, and a cost of 0.60 after 1000 restarts says the default hyperparameters in `TestNN.java` just aren't enough to get there. The mechanics (forward pass, backprop, gradient descent, random-restart selection) all genuinely work; whether the _specific_ configuration in the repo converges on NAND is a separate question the code itself doesn't quite answer.
 
 ### Why it's here
 

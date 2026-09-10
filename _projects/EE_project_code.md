@@ -49,6 +49,7 @@ Scrambling the cube is just applying a handful of random `Transform`s from the s
 I later rewrote the whole thing in C++ (`cube.cpp`/`cube.h`) with proper classes for `Position`, `Colour`, `Face`, `Piece`, `Matrix`, `Transformation`, and `Cube` — partly for speed, partly to see the same rotation logic look completely different in a statically-typed, OOP style:
 
 {% raw %}
+
 ```cpp
 Transformation::Transformation(string layer_move) : layer_move{layer_move} {
     // "R" turns the right layer clockwise, "R*" counter-clockwise, etc.
@@ -61,6 +62,7 @@ Transformation::Transformation(string layer_move) : layer_move{layer_move} {
     // ... U/D and F/B layers follow the same pattern
 }
 ```
+
 {% endraw %}
 
 I also tried to push further than the EE actually needed and write a `solve()` — a beginner's-method layer-by-layer solver. It's honest to say it's unfinished: compiling `cube.cpp` and running it today confirms the rotation engine is solid (it correctly detects a solved vs. scrambled state), but the solver itself doesn't yet get there:
