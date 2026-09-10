@@ -7,15 +7,26 @@
       value: Den Haag, Netherlands
     - name: Languages
       value: English, Marathi, Dutch (fluent), Hindi, German (B1)
+    - name: Links
+      links:
+        - link: https://linkedin.com/in/aadikpat
+          name: LinkedIn
+        - link: https://github.com/Aadipat
+          name: GitHub
 
 - title: Education
   type: time_table
   contents:
+    - title: MSc Data Science & Artificial Intelligence
+      institution: Delft University of Technology (TU Delft), Delft, Netherlands
+      year: 2026 – 2028
+      description:
+        - "Continuing research on AI-enhanced quantum simulation and data management alongside the degree."
     - title: BSc (Honours) Computer Science & Engineering
       institution: Delft University of Technology (TU Delft), Delft, Netherlands
       year: 2023 – 2026
       description:
-        - "CGPA: 8.6/10"
+        - "Cum Laude — CGPA: 8.7/10"
         - "Track: Data & AI — Minor: Quantum Science & Quantum Information"
         - title: Honours Programme
           contents:
@@ -26,6 +37,30 @@
       description:
         - "Score: 41/45"
         - "HL: Mathematics AA (7), Physics (7), Chemistry (7)"
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "InferQ: A Database-Oriented Benchmark for Quantum Circuits Simulation"
+      institution: Ilinescu*, Patwardhan*, and Hai — Proc. ACM Manag. Data (SIGMOD 2027)
+      year: 2026
+      description:
+        - "Benchmark and 202,975-circuit dataset for evaluating relational-database engines as quantum circuit simulators, with learned models that predict the best simulator per circuit. *Equal contribution."
+      linkitems:
+        - link: /publications/#ilinescu2026inferq
+          linkname: details
+        - link: /assets/pdf/InferQ.pdf
+          linkname: pdf
+    - title: "QEC lake: Data Lake for AI-enhanced Quantum Error Correction"
+      institution: Patwardhan et al. — Proc. VLDB Endowment (VLDB 2026, Demo)
+      year: 2026
+      description:
+        - "A domain-specific data lake that ingests, generates, and prepares quantum error correction datasets for training AI-based decoders."
+      linkitems:
+        - link: /publications/#patwardhan2026qeclake
+          linkname: details
+        - link: /assets/pdf/QEC_lake_2026.pdf
+          linkname: pdf
 
 - title: Experience
   type: time_table
@@ -46,6 +81,7 @@
         - Built backend automation in Python Django and PostgreSQL; deployed with Docker on internal PwC Deals platforms.
         - Developed interactive M&A insight views with React + TypeScript.
         - Collaborated cross-functionally with finance and valuation teams in an agile environment.
+        - Conducted multi-stage user testing across teams in the Deals organisation.
         - Prototyped AI-assisted automation tools to streamline deal analysis.
 
 - title: Projects & Leadership
