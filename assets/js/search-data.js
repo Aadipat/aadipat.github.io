@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "A selection of my open-source and academic code — GitHub stats and pinned repositories.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -44,7 +44,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-my-webpage-is-live",
+        },{id: "post-inferq-can-a-database-simulate-a-quantum-computer",
+        
+          title: "InferQ: can a database simulate a quantum computer?",
+        
+        description: "A benchmark for running quantum circuit simulation as SQL, and when it actually beats Qiskit.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/inferq/";
+          
+        },
+      },{id: "post-qec-lake-a-data-lake-for-quantum-error-correction",
+        
+          title: "QEC lake: a data lake for quantum error correction",
+        
+        description: "Why AI-based QEC decoders are starved for data, and how QEC lake fixes that.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/qec-lake/";
+          
+        },
+      },{id: "post-my-webpage-is-live",
         
           title: "My webpage is live!",
         
@@ -72,9 +94,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-demo-paper-qec-lake-data-lake-for-ai-enhanced-quantum-error-correction-has-been-accepted-at-vldb-2026",
           title: 'Our demo paper QEC lake: Data Lake for AI-enhanced Quantum Error Correction has...',
           description: "",
+          section: "News",},{id: "news-our-paper-inferq-a-database-oriented-benchmark-for-quantum-circuits-simulation-has-been-accepted-at-sigmod-2027-proc-acm-manag-data",
+          title: 'Our paper InferQ: A Database-Oriented Benchmark for Quantum Circuits Simulation has been accepted...',
+          description: "",
           section: "News",},{id: "projects-rubik-39-s-cube-simulation-api",
           title: 'Rubik&amp;#39;s cube simulation API',
-          description: "",
+          description: "An IB Extended Essay project modelling NxN Rubik&#39;s cube rotations with vectors and matrices, in Python and C++",
           section: "Projects",handler: () => {
               window.location.href = "/projects/EE_project_code/";
             },},{id: "projects-hackdelft-2024-competition",
@@ -84,17 +109,27 @@ ninja.data = [{
               window.location.href = "/projects/HackDelft2024_code/";
             },},{id: "projects-mlp-package-for-java",
           title: 'MLP package for JAVA',
-          description: "",
+          description: "A multilayer perceptron built from scratch in Java — matrices, backpropagation, and all",
           section: "Projects",handler: () => {
               window.location.href = "/projects/JavaNN_project/";
             },},{id: "projects-ml-models-playground",
           title: 'ML models playground',
-          description: "Foundational ML concepts enabled through mathematical modelling",
+          description: "Classic ML algorithms implemented from scratch in NumPy — some finished, some very much not",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ML_Playground/";
+            },},{id: "projects-handwritten-equation-solver",
+          title: 'Handwritten equation solver',
+          description: "IB Computer Science Personal Project — draw an equation, two CNNs read it, Python solves it",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PersonalProject_EquationRecogniser/";
+            },},{id: "projects-qec-tiles-stabilizer-rush",
+          title: 'QEC Tiles: Stabilizer Rush',
+          description: "A browser game that teaches quantum error correction decoding, built for the VLDB 2026 QEC lake demo",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/QEC_Game/";
             },},{id: "projects-lightweight-quantum-mps-simulator",
           title: 'Lightweight Quantum MPS simulator',
-          description: "",
+          description: "A from-scratch tensor-network simulator for quantum circuits, built around Matrix Product States",
           section: "Projects",handler: () => {
               window.location.href = "/projects/QMPS_code/";
             },},{
@@ -102,7 +137,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%61%61%64%69%6B%70%61%74@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Aadipat", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -110,6 +152,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://inspirehep.net/authors/1010907", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/aadikpat", "_blank");
         },
       },{
         id: 'social-rss',
@@ -124,13 +173,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
