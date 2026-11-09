@@ -44,7 +44,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-inferq-can-a-database-simulate-a-quantum-computer",
+        },{id: "post-from-expected-utility-to-the-belief-mdp",
+        
+          title: "From expected utility to the belief MDP",
+        
+        description: "Influence diagrams, MDPs and POMDPs derived from one principle, including the proof that a belief state is all an agent needs to remember.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/expected-utility-to-belief-mdp/";
+          
+        },
+      },{id: "post-backpropagation-one-scalar-at-a-time",
+        
+          title: "Backpropagation, one scalar at a time",
+        
+        description: "Deriving the gradient rules for linear and activation layers from the plain chain rule, treating every tensor entry as its own variable.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/backprop-one-scalar-at-a-time/";
+          
+        },
+      },{id: "post-inferq-can-a-database-simulate-a-quantum-computer",
         
           title: "InferQ: can a database simulate a quantum computer?",
         
