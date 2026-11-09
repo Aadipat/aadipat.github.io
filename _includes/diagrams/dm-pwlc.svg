@@ -1,0 +1,52 @@
+<svg viewBox="0 0 760 340" role="img" aria-label="Value of a belief in the tiger problem, for one and four steps to go. Each straight line is one alpha vector. The value function is their upper envelope, piecewise linear and convex."><defs><marker id="dm-pwlc-i" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip"/></marker><marker id="dm-pwlc-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip-a"/></marker></defs>
+<line x1="58.0" y1="274.0" x2="378.0" y2="274.0" class="d-grid"/>
+<text x="50.0" y="278.2" class="d-tick" text-anchor="end" font-size="12"><tspan>−30</tspan></text>
+<line x1="58.0" y1="219.2" x2="378.0" y2="219.2" class="d-grid"/>
+<text x="50.0" y="223.4" class="d-tick" text-anchor="end" font-size="12"><tspan>−20</tspan></text>
+<line x1="58.0" y1="164.5" x2="378.0" y2="164.5" class="d-grid"/>
+<text x="50.0" y="168.7" class="d-tick" text-anchor="end" font-size="12"><tspan>−10</tspan></text>
+<line x1="58.0" y1="109.7" x2="378.0" y2="109.7" class="d-grid"/>
+<text x="50.0" y="113.9" class="d-tick" text-anchor="end" font-size="12"><tspan>0</tspan></text>
+<line x1="58.0" y1="55.0" x2="378.0" y2="55.0" class="d-grid"/>
+<text x="50.0" y="59.2" class="d-tick" text-anchor="end" font-size="12"><tspan>10</tspan></text>
+<text x="58.0" y="294.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>0</tspan></text>
+<text x="218.0" y="294.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>0.5</tspan></text>
+<text x="378.0" y="294.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>1</tspan></text>
+<text x="218.0" y="21.1" class="d-t" text-anchor="middle" font-size="14.5"><tspan>1 step to go</tspan></text>
+<text x="218.0" y="314.4" class="d-tick" text-anchor="middle" font-size="12.5"><tspan>b = P(tiger behind left door)</tspan></text>
+<line x1="58.0" y1="115.2" x2="378.0" y2="115.2" class="d-alpha"/>
+<line x1="58.0" y1="55.0" x2="174.0" y2="273.3" class="d-alpha"/>
+<line x1="262.0" y1="273.3" x2="378.0" y2="55.0" class="d-alpha"/>
+<path d="M58.0 55.0 L90.1 115.2 L346.0 115.2 L378.0 55.0" class="d-env"/>
+<text x="74.0" y="38.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>open L</tspan></text>
+<text x="218.0" y="38.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>listen</tspan></text>
+<line x1="90.1" y1="42.0" x2="90.1" y2="274.0" class="d-zone"/>
+<text x="362.0" y="38.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>open R</tspan></text>
+<line x1="346.0" y1="42.0" x2="346.0" y2="274.0" class="d-zone"/>
+<line x1="58.0" y1="274.0" x2="378.0" y2="274.0" class="d-axis"/>
+<line x1="418.0" y1="274.0" x2="738.0" y2="274.0" class="d-grid"/>
+<line x1="418.0" y1="219.2" x2="738.0" y2="219.2" class="d-grid"/>
+<line x1="418.0" y1="164.5" x2="738.0" y2="164.5" class="d-grid"/>
+<line x1="418.0" y1="109.7" x2="738.0" y2="109.7" class="d-grid"/>
+<line x1="418.0" y1="55.0" x2="738.0" y2="55.0" class="d-grid"/>
+<text x="418.0" y="294.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>0</tspan></text>
+<text x="578.0" y="294.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>0.5</tspan></text>
+<text x="738.0" y="294.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>1</tspan></text>
+<text x="578.0" y="21.1" class="d-t" text-anchor="middle" font-size="14.5"><tspan>4 steps to go</tspan></text>
+<text x="578.0" y="314.4" class="d-tick" text-anchor="middle" font-size="12.5"><tspan>b = P(tiger behind left door)</tspan></text>
+<line x1="418.0" y1="99.9" x2="738.0" y2="99.9" class="d-alpha"/>
+<line x1="418.0" y1="92.3" x2="738.0" y2="109.3" class="d-alpha"/>
+<line x1="418.0" y1="81.1" x2="738.0" y2="127.1" class="d-alpha"/>
+<line x1="418.0" y1="109.3" x2="738.0" y2="92.3" class="d-alpha"/>
+<line x1="418.0" y1="127.1" x2="738.0" y2="81.1" class="d-alpha"/>
+<line x1="418.8" y1="44.4" x2="540.4" y2="273.3" class="d-alpha"/>
+<line x1="615.6" y1="273.3" x2="737.2" y2="44.4" class="d-alpha"/>
+<path d="M418.0 42.9 L440.0 84.3 L541.7 98.9 L560.3 99.9 L595.8 99.9 L614.4 98.9 L716.1 84.2 L738.0 42.9" class="d-env"/>
+<text x="429.0" y="38.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>open L</tspan></text>
+<text x="578.0" y="38.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>listen</tspan></text>
+<line x1="440.0" y1="42.0" x2="440.0" y2="274.0" class="d-zone"/>
+<text x="727.0" y="38.2" class="d-tick" text-anchor="middle" font-size="12"><tspan>open R</tspan></text>
+<line x1="716.1" y1="42.0" x2="716.1" y2="274.0" class="d-zone"/>
+<line x1="418.0" y1="274.0" x2="738.0" y2="274.0" class="d-axis"/>
+<text x="14.0" y="164.2" class="d-m" text-anchor="middle" font-size="15"><tspan>V</tspan></text>
+</svg>

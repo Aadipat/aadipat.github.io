@@ -1,0 +1,19 @@
+<svg viewBox="0 0 640 250" role="img" aria-label="Influence diagram with state s, evidence e, action a and utility U. The state generates the evidence, the evidence informs the action, and utility depends on state and action."><defs><marker id="dm-influence-i" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip"/></marker><marker id="dm-influence-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip-a"/></marker></defs>
+<line x1="252.8" y1="83.5" x2="137.2" y2="156.5" class="d-edge" marker-end="url(#dm-influence-i)"/>
+<line x1="141.9" y1="182.2" x2="230.1" y2="186.8" class="d-edge-dash" marker-end="url(#dm-influence-i)"/>
+<line x1="332.2" y1="72.5" x2="469.7" y2="113.1" class="d-edge" marker-end="url(#dm-influence-i)"/>
+<line x1="345.6" y1="173.6" x2="469.7" y2="136.9" class="d-edge" marker-end="url(#dm-influence-i)"/>
+<ellipse cx="290" cy="60" rx="44" ry="28" class="d-node"/>
+<text x="290.0" y="65.2" class="d-m" text-anchor="middle" font-size="15"><tspan>s</tspan></text>
+<ellipse cx="100" cy="180" rx="42" ry="28" class="d-param"/>
+<text x="100.0" y="185.2" class="d-m" text-anchor="middle" font-size="15"><tspan>e</tspan></text>
+<rect x="236.0" y="164.0" width="108.0" height="52.0" rx="4" class="d-hl"/>
+<text x="290.0" y="195.2" class="d-m" text-anchor="middle" font-size="15"><tspan>a</tspan></text>
+<polygon points="510.0,81.0 568.0,125.0 510.0,169.0 452.0,125.0" class="d-node"/>
+<text x="510.0" y="130.2" class="d-m" text-anchor="middle" font-size="15"><tspan>U(s, a)</tspan></text>
+<text x="290.0" y="22.6" class="d-s" text-anchor="middle" font-size="13"><tspan>chance: possibly hidden</tspan></text>
+<text x="100.0" y="228.6" class="d-s" text-anchor="middle" font-size="13"><tspan>chance: observed</tspan></text>
+<text x="290.0" y="236.6" class="d-s" text-anchor="middle" font-size="13"><tspan>decision</tspan></text>
+<text x="510.0" y="189.6" class="d-s" text-anchor="middle" font-size="13"><tspan>utility</tspan></text>
+<text x="186.0" y="108.9" class="d-m" text-anchor="middle" font-size="14"><tspan>P(s | e)</tspan></text>
+</svg>

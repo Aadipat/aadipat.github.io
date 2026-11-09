@@ -1,0 +1,37 @@
+<svg viewBox="0 0 760 340" role="img" aria-label="POMDP dynamics over three time slices. Hidden states form a chain driven by actions. Each new state emits an observation. The agent sees only observations and its own actions."><defs><marker id="dm-pomdp-i" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip"/></marker><marker id="dm-pomdp-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip-a"/></marker></defs>
+<text x="20.0" y="66.5" class="d-s" text-anchor="start" font-size="13"><tspan>observed</tspan></text>
+<text x="20.0" y="169.6" class="d-s" text-anchor="start" font-size="13"><tspan>chosen</tspan></text>
+<text x="20.0" y="279.6" class="d-s" text-anchor="start" font-size="13"><tspan>hidden</tspan></text>
+<line x1="180.0" y1="275.0" x2="360.0" y2="275.0" class="d-edge-s" marker-end="url(#dm-pomdp-i)"/>
+<line x1="296.5" y1="189.3" x2="367.9" y2="254.7" class="d-edge-s" marker-end="url(#dm-pomdp-i)"/>
+<line x1="297.3" y1="141.6" x2="370.3" y2="78.9" class="d-edge-s" marker-end="url(#dm-pomdp-i)"/>
+<line x1="169.7" y1="78.9" x2="239.6" y2="138.9" class="d-edge-dash" marker-end="url(#dm-pomdp-i)"/>
+<line x1="420.0" y1="275.0" x2="600.0" y2="275.0" class="d-edge-s" marker-end="url(#dm-pomdp-i)"/>
+<line x1="536.5" y1="189.3" x2="607.9" y2="254.7" class="d-edge-s" marker-end="url(#dm-pomdp-i)"/>
+<line x1="537.3" y1="141.6" x2="610.3" y2="78.9" class="d-edge-s" marker-end="url(#dm-pomdp-i)"/>
+<line x1="409.7" y1="78.9" x2="479.6" y2="138.9" class="d-edge-dash" marker-end="url(#dm-pomdp-i)"/>
+<line x1="150.0" y1="245.0" x2="150.0" y2="88.0" class="d-edge-s" marker-end="url(#dm-pomdp-i)"/>
+<line x1="390.0" y1="245.0" x2="390.0" y2="88.0" class="d-edge-s" marker-end="url(#dm-pomdp-i)"/>
+<line x1="630.0" y1="245.0" x2="630.0" y2="88.0" class="d-edge-s" marker-end="url(#dm-pomdp-i)"/>
+<circle cx="150.0" cy="275.0" r="30" class="d-hidden"/>
+<text x="150.0" y="280.2" class="d-m" text-anchor="middle" font-size="15"><tspan>s</tspan><tspan dy="4.2" font-size="10.8">t</tspan></text>
+<circle cx="390.0" cy="275.0" r="30" class="d-hidden"/>
+<text x="390.0" y="280.2" class="d-m" text-anchor="middle" font-size="15"><tspan>s</tspan><tspan dy="4.2" font-size="10.8">t+1</tspan></text>
+<circle cx="630.0" cy="275.0" r="30" class="d-hidden"/>
+<text x="630.0" y="280.2" class="d-m" text-anchor="middle" font-size="15"><tspan>s</tspan><tspan dy="4.2" font-size="10.8">t+2</tspan></text>
+<circle cx="150.0" cy="62.0" r="26" class="d-param"/>
+<text x="150.0" y="67.2" class="d-m" text-anchor="middle" font-size="15"><tspan>o</tspan><tspan dy="4.2" font-size="10.8">t</tspan></text>
+<circle cx="390.0" cy="62.0" r="26" class="d-param"/>
+<text x="390.0" y="67.2" class="d-m" text-anchor="middle" font-size="15"><tspan>o</tspan><tspan dy="4.2" font-size="10.8">t+1</tspan></text>
+<circle cx="630.0" cy="62.0" r="26" class="d-param"/>
+<text x="630.0" y="67.2" class="d-m" text-anchor="middle" font-size="15"><tspan>o</tspan><tspan dy="4.2" font-size="10.8">t+2</tspan></text>
+<rect x="234.0" y="143.0" width="72.0" height="44.0" rx="4" class="d-hl"/>
+<text x="270.0" y="170.2" class="d-m" text-anchor="middle" font-size="15"><tspan>a</tspan><tspan dy="4.2" font-size="10.8">t</tspan></text>
+<rect x="474.0" y="143.0" width="72.0" height="44.0" rx="4" class="d-hl"/>
+<text x="510.0" y="170.2" class="d-m" text-anchor="middle" font-size="15"><tspan>a</tspan><tspan dy="4.2" font-size="10.8">t+1</tspan></text>
+<text x="270.0" y="321.9" class="d-am" text-anchor="middle" font-size="14"><tspan>T(s, a, s′) = P(s′ | s, a)</tspan></text>
+<text x="445.0" y="212.9" class="d-am" text-anchor="middle" font-size="14"><tspan>O(o, s′, a)</tspan></text>
+<text x="445.0" y="230.9" class="d-am" text-anchor="middle" font-size="14"><tspan>= P(o | s′, a)</tspan></text>
+<text x="270.0" y="82.4" class="d-s" text-anchor="middle" font-size="12.5"><tspan>chosen from</tspan></text>
+<text x="270.0" y="98.4" class="d-s" text-anchor="middle" font-size="12.5"><tspan>the history only</tspan></text>
+</svg>

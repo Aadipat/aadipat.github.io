@@ -1,0 +1,7 @@
+<figure class="diagram">
+  {% capture diagram_path %}diagrams/{{ include.name }}.svg{% endcapture -%}
+  {%- include {{ diagram_path }} -%}
+  {%- if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

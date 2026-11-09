@@ -1,0 +1,17 @@
+<svg viewBox="0 0 760 215" role="img" aria-label="An activation layer: x goes in and y comes out, with no parameters. In the backward pass g arrives from upstream and the layer returns x-bar, the element-wise product of g and f prime of x."><defs><marker id="bp-activation-i" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip"/></marker><marker id="bp-activation-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip-a"/></marker></defs>
+<line x1="100.0" y1="86.0" x2="328.0" y2="86.0" class="d-edge-s" marker-end="url(#bp-activation-i)"/>
+<line x1="432.0" y1="86.0" x2="660.0" y2="86.0" class="d-edge-s" marker-end="url(#bp-activation-i)"/>
+<line x1="660.0" y1="128.0" x2="432.0" y2="128.0" class="d-edge-a" marker-end="url(#bp-activation-a)"/>
+<line x1="328.0" y1="128.0" x2="100.0" y2="128.0" class="d-edge-a" marker-end="url(#bp-activation-a)"/>
+<circle cx="380.0" cy="105.0" r="54" class="d-hl"/>
+<text x="380.0" y="98.9" class="d-t" text-anchor="middle" font-size="14"><tspan>Activation</tspan></text>
+<text x="380.0" y="122.9" class="d-m" text-anchor="middle" font-size="14"><tspan>y = f(x)</tspan></text>
+<text x="380.0" y="36.5" class="d-s" text-anchor="middle" font-size="13"><tspan>keeps a copy of x from the forward pass</tspan></text>
+<text x="215.0" y="71.2" class="d-m" text-anchor="middle" font-size="15"><tspan>x : (N, J)</tspan></text>
+<text x="545.0" y="71.2" class="d-m" text-anchor="middle" font-size="15"><tspan>y : (N, J)</tspan></text>
+<text x="545.0" y="155.2" class="d-am" text-anchor="middle" font-size="15"><tspan>g = ȳ = ∂ℒ/∂y : (N, J)</tspan></text>
+<text x="215.0" y="155.2" class="d-am" text-anchor="middle" font-size="15"><tspan>x̄ = g ⊙ f′(x) : (N, J)</tspan></text>
+<text x="60.0" y="111.5" class="d-s" text-anchor="middle" font-size="13"><tspan>downstream</tspan></text>
+<text x="702.0" y="111.5" class="d-s" text-anchor="middle" font-size="13"><tspan>upstream</tspan></text>
+<text x="380.0" y="187.6" class="d-s" text-anchor="middle" font-size="13"><tspan>no parameters, so nothing else to produce</tspan></text>
+</svg>

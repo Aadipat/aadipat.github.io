@@ -1,0 +1,26 @@
+<svg viewBox="0 0 760 345" role="img" aria-label="A linear layer: x and the parameters W and B go in, y comes out. In the backward pass g arrives from upstream and the layer produces the gradients for x, W and B."><defs><marker id="bp-layer-i" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip"/></marker><marker id="bp-layer-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip-a"/></marker></defs>
+<line x1="100.0" y1="106.0" x2="328.0" y2="106.0" class="d-edge-s" marker-end="url(#bp-layer-i)"/>
+<line x1="432.0" y1="106.0" x2="660.0" y2="106.0" class="d-edge-s" marker-end="url(#bp-layer-i)"/>
+<line x1="660.0" y1="148.0" x2="432.0" y2="148.0" class="d-edge-a" marker-end="url(#bp-layer-a)"/>
+<line x1="328.0" y1="148.0" x2="100.0" y2="148.0" class="d-edge-a" marker-end="url(#bp-layer-a)"/>
+<line x1="283.9" y1="258.6" x2="336.0" y2="164.6" class="d-edge-s" marker-end="url(#bp-layer-i)"/>
+<line x1="348.2" y1="171.4" x2="296.1" y2="265.4" class="d-edge-a" marker-end="url(#bp-layer-a)"/>
+<line x1="476.1" y1="258.6" x2="424.0" y2="164.6" class="d-edge-s" marker-end="url(#bp-layer-i)"/>
+<line x1="411.8" y1="171.4" x2="463.9" y2="265.4" class="d-edge-a" marker-end="url(#bp-layer-a)"/>
+<circle cx="380.0" cy="125.0" r="54" class="d-hl"/>
+<text x="380.0" y="119.2" class="d-t" text-anchor="middle" font-size="15"><tspan>Linear</tspan></text>
+<text x="380.0" y="142.9" class="d-m" text-anchor="middle" font-size="14"><tspan>y = xW + B</tspan></text>
+<text x="380.0" y="56.5" class="d-s" text-anchor="middle" font-size="13"><tspan>keeps a copy of x from the forward pass</tspan></text>
+<text x="215.0" y="91.2" class="d-m" text-anchor="middle" font-size="15"><tspan>x : (N, I)</tspan></text>
+<text x="545.0" y="91.2" class="d-m" text-anchor="middle" font-size="15"><tspan>y : (N, J)</tspan></text>
+<text x="545.0" y="175.2" class="d-am" text-anchor="middle" font-size="15"><tspan>g = ȳ = ∂ℒ/∂y : (N, J)</tspan></text>
+<text x="215.0" y="175.2" class="d-am" text-anchor="middle" font-size="15"><tspan>x̄ = g W</tspan><tspan dy="-5.7" font-size="10.8">T</tspan><tspan dy="5.7"> : (N, I)</tspan></text>
+<text x="60.0" y="131.6" class="d-s" text-anchor="middle" font-size="13"><tspan>downstream</tspan></text>
+<text x="702.0" y="131.6" class="d-s" text-anchor="middle" font-size="13"><tspan>upstream</tspan></text>
+<rect x="238.0" y="262.0" width="104.0" height="42.0" rx="6" class="d-param"/>
+<text x="290.0" y="288.2" class="d-m" text-anchor="middle" font-size="15"><tspan>W : (I, J)</tspan></text>
+<rect x="428.0" y="262.0" width="84.0" height="42.0" rx="6" class="d-param"/>
+<text x="470.0" y="288.2" class="d-m" text-anchor="middle" font-size="15"><tspan>B : (J)</tspan></text>
+<text x="290.0" y="331.2" class="d-am" text-anchor="middle" font-size="15"><tspan>W̄ = x</tspan><tspan dy="-5.7" font-size="10.8">T</tspan><tspan dy="5.7"> g</tspan></text>
+<text x="470.0" y="331.2" class="d-am" text-anchor="middle" font-size="15"><tspan>B̄ = Σ</tspan><tspan dy="4.2" font-size="10.8">b</tspan><tspan dy="-4.2"> g</tspan></text>
+</svg>

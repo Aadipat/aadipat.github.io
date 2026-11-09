@@ -1,0 +1,34 @@
+<svg viewBox="0 0 760 280" role="img" aria-label="A network of Linear, activation, Linear and loss. Forward tensors h0 to h3 flow right and each layer caches its input. Gradients g3 to g0 flow left and each Linear layer emits its parameter gradient."><defs><marker id="bp-pass-i" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip"/></marker><marker id="bp-pass-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="d-tip-a"/></marker></defs>
+<rect x="105.0" y="86.0" width="90.0" height="58.0" rx="6" class="d-param"/>
+<text x="150.0" y="120.1" class="d-t" text-anchor="middle" font-size="14.5"><tspan>Linear</tspan></text>
+<rect x="275.0" y="86.0" width="90.0" height="58.0" rx="6" class="d-param"/>
+<text x="320.0" y="120.1" class="d-t" text-anchor="middle" font-size="14.5"><tspan>f</tspan></text>
+<rect x="445.0" y="86.0" width="90.0" height="58.0" rx="6" class="d-param"/>
+<text x="490.0" y="120.1" class="d-t" text-anchor="middle" font-size="14.5"><tspan>Linear</tspan></text>
+<rect x="615.0" y="86.0" width="90.0" height="58.0" rx="6" class="d-hl"/>
+<text x="660.0" y="120.1" class="d-t" text-anchor="middle" font-size="14.5"><tspan>Loss</tspan></text>
+<line x1="20.0" y1="104.0" x2="105.0" y2="104.0" class="d-edge-s" marker-end="url(#bp-pass-i)"/>
+<line x1="105.0" y1="128.0" x2="20.0" y2="128.0" class="d-edge-a" marker-end="url(#bp-pass-a)"/>
+<line x1="195.0" y1="104.0" x2="275.0" y2="104.0" class="d-edge-s" marker-end="url(#bp-pass-i)"/>
+<line x1="275.0" y1="128.0" x2="195.0" y2="128.0" class="d-edge-a" marker-end="url(#bp-pass-a)"/>
+<line x1="365.0" y1="104.0" x2="445.0" y2="104.0" class="d-edge-s" marker-end="url(#bp-pass-i)"/>
+<line x1="445.0" y1="128.0" x2="365.0" y2="128.0" class="d-edge-a" marker-end="url(#bp-pass-a)"/>
+<line x1="535.0" y1="104.0" x2="615.0" y2="104.0" class="d-edge-s" marker-end="url(#bp-pass-i)"/>
+<line x1="615.0" y1="128.0" x2="535.0" y2="128.0" class="d-edge-a" marker-end="url(#bp-pass-a)"/>
+<text x="62.0" y="94.2" class="d-m" text-anchor="middle" font-size="15"><tspan>h</tspan><tspan dy="4.2" font-size="10.8">0</tspan></text>
+<text x="235.0" y="94.2" class="d-m" text-anchor="middle" font-size="15"><tspan>h</tspan><tspan dy="4.2" font-size="10.8">1</tspan></text>
+<text x="405.0" y="94.2" class="d-m" text-anchor="middle" font-size="15"><tspan>h</tspan><tspan dy="4.2" font-size="10.8">2</tspan></text>
+<text x="575.0" y="94.2" class="d-m" text-anchor="middle" font-size="15"><tspan>h</tspan><tspan dy="4.2" font-size="10.8">3</tspan></text>
+<text x="62.0" y="174.7" class="d-am" text-anchor="middle" font-size="13.5"><tspan>g</tspan><tspan dy="3.8" font-size="9.7">0</tspan><tspan dy="-3.8"> = g</tspan><tspan dy="3.8" font-size="9.7">1</tspan><tspan dy="-3.8"> W</tspan><tspan dy="3.8" font-size="9.7">1</tspan><tspan dy="-8.9" font-size="9.7">T</tspan></text>
+<text x="235.0" y="174.7" class="d-am" text-anchor="middle" font-size="13.5"><tspan>g</tspan><tspan dy="3.8" font-size="9.7">1</tspan><tspan dy="-3.8"> = g</tspan><tspan dy="3.8" font-size="9.7">2</tspan><tspan dy="-3.8"> ⊙ f′(h</tspan><tspan dy="3.8" font-size="9.7">1</tspan><tspan dy="-3.8">)</tspan></text>
+<text x="405.0" y="174.7" class="d-am" text-anchor="middle" font-size="13.5"><tspan>g</tspan><tspan dy="3.8" font-size="9.7">2</tspan><tspan dy="-3.8"> = g</tspan><tspan dy="3.8" font-size="9.7">3</tspan><tspan dy="-3.8"> W</tspan><tspan dy="3.8" font-size="9.7">2</tspan><tspan dy="-8.9" font-size="9.7">T</tspan></text>
+<text x="575.0" y="174.7" class="d-am" text-anchor="middle" font-size="13.5"><tspan>g</tspan><tspan dy="3.8" font-size="9.7">3</tspan><tspan dy="-3.8"> = h̄</tspan><tspan dy="3.8" font-size="9.7">3</tspan><tspan dy="-3.8"> = ∂ℒ/∂h</tspan><tspan dy="3.8" font-size="9.7">3</tspan></text>
+<text x="150.0" y="56.7" class="d-m-muted" text-anchor="middle" font-size="13.5"><tspan>caches h</tspan><tspan dy="3.8" font-size="9.7">0</tspan></text>
+<text x="320.0" y="56.7" class="d-m-muted" text-anchor="middle" font-size="13.5"><tspan>caches h</tspan><tspan dy="3.8" font-size="9.7">1</tspan></text>
+<text x="490.0" y="56.7" class="d-m-muted" text-anchor="middle" font-size="13.5"><tspan>caches h</tspan><tspan dy="3.8" font-size="9.7">2</tspan></text>
+<line x1="150.0" y1="144.0" x2="150.0" y2="226.0" class="d-edge-a" marker-end="url(#bp-pass-a)"/>
+<text x="150.0" y="251.1" class="d-am" text-anchor="middle" font-size="14.5"><tspan>W̄</tspan><tspan dy="4.1" font-size="10.4">1</tspan><tspan dy="-4.1"> = h</tspan><tspan dy="4.1" font-size="10.4">0</tspan><tspan dy="-9.6" font-size="10.4">T</tspan><tspan dy="5.5"> g</tspan><tspan dy="4.1" font-size="10.4">1</tspan></text>
+<line x1="490.0" y1="144.0" x2="490.0" y2="226.0" class="d-edge-a" marker-end="url(#bp-pass-a)"/>
+<text x="490.0" y="251.1" class="d-am" text-anchor="middle" font-size="14.5"><tspan>W̄</tspan><tspan dy="4.1" font-size="10.4">2</tspan><tspan dy="-4.1"> = h</tspan><tspan dy="4.1" font-size="10.4">2</tspan><tspan dy="-9.6" font-size="10.4">T</tspan><tspan dy="5.5"> g</tspan><tspan dy="4.1" font-size="10.4">3</tspan></text>
+<text x="660.0" y="250.7" class="d-m-muted" text-anchor="middle" font-size="13.5"><tspan>seed: ℒ̄ = ∂ℒ/∂ℒ = 1</tspan></text>
+</svg>
