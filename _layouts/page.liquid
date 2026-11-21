@@ -12,6 +12,9 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p>
+    {% if page.github %}
+      <a class="btn btn-sm z-depth-0 repo-button" role="button" href="{{ page.github }}"> <i class="fa-brands fa-github"></i> Code on GitHub </a>
+    {% endif %}
   </header>
 
   <article>

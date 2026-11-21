@@ -9,11 +9,10 @@ last_name: Patwardhan
 contact_note: >
   Best reached via email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Aadi Patwardhan — CS & Engineering (Honours) student at TU Delft, student researcher in quantum computing and AI.
+  Personal website of Aadi Patwardhan — MSc Data Science & AI student at TU Delft, working on machine learning and quantum computing.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: quantum computing, machine learning, AI, TU Delft, computer science, student researcher
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -32,7 +31,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false # trophy service (github-profile-trophy.vercel.app) is offline
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -143,8 +142,6 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
   news:
     defaults:
       layout: post
@@ -251,11 +248,9 @@ jekyll-archives:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["LeetCode", "DSA", "Maths", "Physics", "Code", "Misc", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["quantum-computing", "machine-learning", "deep-learning", "math", "research"] # these tags will be displayed on the front page of your blog
+display_categories: ["publications", "derivations"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -623,9 +618,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+jekyll_get_json: # no external JSON; the CV page is built from _data/cv.yml
 
 jsonresume:
   - basics

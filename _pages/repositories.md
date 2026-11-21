@@ -2,14 +2,25 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: A selection of my open-source and academic code — GitHub stats and pinned repositories.
+description: Code behind my research and projects. Each repository links to its paper or write-up.
 nav: true
 nav_order: 4
 ---
 
+{% for group in site.data.repositories.github_repos %}
+
+## {{ group.section }}
+
+<div class="repo-grid">
+  {% for r in group.repos %}
+    {% include repository/repo_card.liquid repo=r %}
+  {% endfor %}
+</div>
+{% endfor %}
+
 {% if site.data.repositories.github_users %}
 
-## GitHub users
+## GitHub
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -17,31 +28,5 @@ nav_order: 4
   {% endfor %}
 </div>
 
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
+All public repositories are on [github.com/Aadipat](https://github.com/Aadipat).
 {% endif %}

@@ -1,0 +1,27 @@
+{% assign r = include.repo %}
+<div class="repo-card">
+  <div class="repo-card-head">
+    <i class="fa-brands fa-github"></i>
+    <a href="https://github.com/{{ r.repo }}" class="repo-card-title">{{ r.title | default: r.repo }}</a>
+  </div>
+  <div class="repo-card-path">{{ r.repo }}</div>
+  {% if r.description %}
+    <p class="repo-card-desc">{{ r.description }}</p>
+  {% endif %}
+  <div class="repo-card-foot">
+    {% if r.language -%}
+      <span class="repo-card-lang">{{ r.language }}</span>
+    {%- endif %}
+    <span class="repo-card-links">
+      <a href="https://github.com/{{ r.repo }}">code</a>
+      {% if r.project -%}
+        <a href="{{ r.project | relative_url }}">write-up</a>
+      {%- endif %}
+      {% if r.paper -%}
+        <a href="{{ r.paper | relative_url }}"
+          >paper{% if r.paper_name %} ({{ r.paper_name }}){% endif -%}
+        </a>
+      {%- endif %}
+    </span>
+  </div>
+</div>

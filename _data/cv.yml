@@ -21,6 +21,7 @@
       institution: Delft University of Technology (TU Delft), Delft, Netherlands
       year: 2026 – 2028
       description:
+        - "Specialisation: Advanced Machine Learning, Probabilistic Decision Making"
         - "Continuing research on AI-enhanced quantum simulation and data management alongside the degree."
     - title: BSc (Honours) Computer Science & Engineering
       institution: Delft University of Technology (TU Delft), Delft, Netherlands
@@ -41,6 +42,20 @@
 - title: Publications
   type: time_table
   contents:
+    - title: "QEC Model Zoo: Democratizing AI-enhanced Quantum Error Correction"
+      institution: Wang*, de Groot*, Patwardhan*, Geerts, and Hai — NeurIPS 2026 (Evaluations & Datasets Track)
+      year: 2026
+      description:
+        - "A data-centric benchmark for AI-based QEC decoders across nine real experimental datasets and three simulated settings, with standardised protocols for comparing neural, tree-based, and tabular foundation models. *Equal contribution."
+      linkitems:
+        - link: /publications/#wang2026qecmodelzoo
+          linkname: details
+        - link: /assets/pdf/QEC_model_zoo_NeurIPS2026.pdf
+          linkname: pdf
+        - link: https://openreview.net/pdf/ca492abbde2c91db47dd0b3307acb44cc7928b2f.pdf
+          linkname: openreview
+        - link: https://github.com/InfiniData-Lab/QEC-model-zoo
+          linkname: code
     - title: "InferQ: A Database-Oriented Benchmark for Quantum Circuits Simulation"
       institution: Ilinescu*, Patwardhan*, and Hai — Proc. ACM Manag. Data (SIGMOD 2027)
       year: 2026
@@ -51,6 +66,8 @@
           linkname: details
         - link: /assets/pdf/InferQ.pdf
           linkname: pdf
+        - link: https://github.com/InfiniData-Lab/InferQ
+          linkname: code
     - title: "QEC lake: Data Lake for AI-enhanced Quantum Error Correction"
       institution: Patwardhan et al. — Proc. VLDB Endowment (VLDB 2026, Demo)
       year: 2026
@@ -65,11 +82,21 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Co-founder & Chief Technology Officer (CTO) – Quantum Mind B.V.
+      institution: TU Delft Spin-off, Delft, Netherlands
+      year: Nov 2026 – Present
+      description:
+        - Co-founded a deep-tech AI spin-off of TU Delft alongside a TU Delft professor and university faculty.
+        - Co-inventor on 3 patent applications (filed, pending) covering Quantum Mind's core technology.
+        - Lead technical vision and architecture for AI and data infrastructure for quantum computing.
+        - Driving hardware-aware AI for quantum physics, with models built around real device constraints and noise.
+        - Turning peer-reviewed research (NeurIPS, SIGMOD, VLDB) into production-grade products for quantum.
     - title: Research Assistant – Infini Data Lab (WIS)
       institution: TU Delft
       year: Sep 2024 – Present
       description:
         - Conducting honours research on efficient simulation of quantum computation systems, focusing on scalability and optimisation through learning-based methods.
+        - Built and deployed QEC lake, a production full-stack data lake for AI-enhanced quantum error correction, live on AWS for open public use (VLDB 2026).
         - Developing AI-assisted techniques for enabling fault-tolerant quantum computation.
         - Implementing high-performance simulation pipelines in Python/Qiskit for large-scale quantum systems.
         - Research at the intersection of machine learning, quantum information theory, and computational complexity.
@@ -105,19 +132,22 @@
   contents:
     - title: Languages
       items:
-        - Python, Java, C++, JavaScript/TypeScript, Scala, SQL, Assembly
+        - Python, C++, Java, Scala, TypeScript/JavaScript, SQL, Assembly
     - title: ML/AI
       items:
         - PyTorch, TensorFlow, Keras, LangChain
     - title: Quantum
       items:
-        - Qiskit
-    - title: Backend/Systems
+        - Qiskit, quantum circuit simulation, quantum error correction (QEC)
+    - title: Data & Backend
       items:
-        - Django, SpringBoot, Apache Spark, PostgreSQL, Docker
+        - Apache Spark, PostgreSQL, Django, Spring Boot
+    - title: Cloud & DevOps
+      items:
+        - AWS, Docker
     - title: Frontend
       items:
-        - ReactJS
+        - React, TypeScript
 
 - title: Other Interests
   type: list

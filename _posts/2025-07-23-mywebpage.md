@@ -4,7 +4,7 @@ title: My webpage is live!
 date: 2025-07-23
 description: This is how I made this website!
 tags: Misc
-categories: sample-posts
+categories: misc
 ---
 
 I made this webpage using the al folio jekyll theme. I forked the repository and deployed the webpage using github pages on my username.github.io.

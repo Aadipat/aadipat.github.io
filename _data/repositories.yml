@@ -1,12 +1,53 @@
 github_users:
   - aadipat
 
-repo_description_lines_max: 2
-
+# Repository cards are rendered locally (see _includes/repository/repo_card.liquid),
+# so they don't depend on external card services. Each entry can link to the
+# matching project write-up (`project`) or paper (`paper`).
 github_repos:
-  - Aadipat/VLDB_Demo_QEC_Game
-  - Aadipat/QuantumTNSimLib_V1
-  - Aadipat/Neural-Network-MLP-
-  - Aadipat/EEProject
-  - Aadipat/FinalProductPersonalProject
-  - Aadipat/ML
+  - section: Research
+    repos:
+      - repo: InfiniData-Lab/QEC-model-zoo
+        title: QEC Model Zoo
+        description: Benchmark for AI-based quantum error correction decoders across real and simulated QEC datasets.
+        language: Python
+        paper: /publications/#wang2026qecmodelzoo
+        paper_name: NeurIPS 2026
+      - repo: InfiniData-Lab/InferQ
+        title: InferQ
+        description: Quantum circuit benchmark generator that emits SQL workloads, extracts circuit features and predicts the best simulator.
+        language: Python
+        paper: /publications/#ilinescu2026inferq
+        paper_name: SIGMOD 2027
+      - repo: Aadipat/QuantumTNSimLib_V1
+        title: Quantum MPS simulator
+        description: From-scratch tensor-network simulator for quantum circuits built around Matrix Product States.
+        language: Jupyter Notebook
+        project: /projects/QMPS_code/
+      - repo: Aadipat/VLDB_Demo_QEC_Game
+        title: "QEC Tiles: Stabilizer Rush"
+        description: Browser game that teaches quantum error correction decoding, built for the VLDB 2026 demo.
+        language: JavaScript
+        project: /projects/QEC_Game/
+  - section: Machine learning & other projects
+    repos:
+      - repo: Aadipat/ML
+        title: ML models playground
+        description: Classic machine learning algorithms implemented from scratch in NumPy.
+        language: Python
+        project: /projects/ML_Playground/
+      - repo: Aadipat/Neural-Network-MLP-
+        title: MLP package for Java
+        description: Multilayer perceptron built from scratch in Java — matrices, backpropagation and training.
+        language: Java
+        project: /projects/JavaNN_project/
+      - repo: Aadipat/FinalProductPersonalProject
+        title: Handwritten equation solver
+        description: Draw an equation, two CNNs read it, and Python solves it.
+        language: Python
+        project: /projects/PersonalProject_EquationRecogniser/
+      - repo: Aadipat/EEProject
+        title: Rubik's cube simulation API
+        description: NxN Rubik's cube rotations modelled with vectors and matrices, in Python and C++.
+        language: C++
+        project: /projects/EE_project_code/
