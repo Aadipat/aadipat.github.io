@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "A selection of my open-source and academic code — GitHub stats and pinned repositories.",
+          description: "Code behind my research and projects. Each repository links to its paper or write-up.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -64,6 +64,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/backprop-one-scalar-at-a-time/";
+          
+        },
+      },{id: "post-qec-model-zoo-accepted-at-neurips-2026",
+        
+          title: "QEC Model Zoo accepted at NeurIPS 2026",
+        
+        description: "A benchmark for comparing AI decoders for quantum error correction on equal terms.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/qec-model-zoo/";
           
         },
       },{id: "post-inferq-can-a-database-simulate-a-quantum-computer",
@@ -99,12 +110,7 @@ ninja.data = [{
             window.location.href = "/blog/2025/mywebpage/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-as-a-research-assistant-at-the-infini-data-lab-wis-tu-delft-working-on-ai-assisted-simulation-of-quantum-computation-systems",
+      },{id: "news-started-as-a-research-assistant-at-the-infini-data-lab-wis-tu-delft-working-on-ai-assisted-simulation-of-quantum-computation-systems",
           title: 'Started as a Research Assistant at the Infini Data Lab (WIS), TU Delft...',
           description: "",
           section: "News",},{id: "news-organised-tu-delft-s-first-ibm-quantum-qiskit-fall-fest-event-and-mentored-students-on-quantum-circuit-design",
@@ -118,6 +124,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-inferq-a-database-oriented-benchmark-for-quantum-circuits-simulation-has-been-accepted-at-sigmod-2027-proc-acm-manag-data",
           title: 'Our paper InferQ: A Database-Oriented Benchmark for Quantum Circuits Simulation has been accepted...',
+          description: "",
+          section: "News",},{id: "news-our-paper-qec-model-zoo-democratizing-ai-enhanced-quantum-error-correction-has-been-accepted-at-neurips-2026-track-on-evaluations-and-datasets-code-is-on-github-and-the-processed-data-is-on-kaggle",
+          title: 'Our paper QEC Model Zoo: Democratizing AI-enhanced Quantum Error Correction has been accepted...',
+          description: "",
+          section: "News",},{id: "news-co-founded-quantum-mind-b-v-a-tu-delft-deep-tech-ai-spin-off-where-i-m-cto",
+          title: 'Co-founded Quantum Mind B.V., a TU Delft deep-tech AI spin-off, where I’m CTO....',
           description: "",
           section: "News",},{id: "projects-rubik-39-s-cube-simulation-api",
           title: 'Rubik&amp;#39;s cube simulation API',
@@ -169,13 +181,6 @@ ninja.data = [{
           window.open("https://github.com/Aadipat", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -194,7 +199,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=bmxvYJ0AAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
